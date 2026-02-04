@@ -4,7 +4,7 @@
 See er-diagram folder.
 
 ER diagram Loom video:
-<<ADD ER DIAGRAM LOOM LINK HERE>>
+<https://www.loom.com/share/f95e1058c248472485daa7d741e83a33>
 
 ---
 
@@ -20,4 +20,4 @@ npm install
 npm run start:dev
 
 Hello World API Loom video:
-<<ADD HELLO WORLD LOOM LINK HERE>>
+<https://www.loom.com/share/4dc093fd0065400d80df32b0aa52a5d6>
