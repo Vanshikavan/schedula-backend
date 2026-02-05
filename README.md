@@ -4,7 +4,7 @@
 See er-diagram folder.
 
 ER diagram Loom video:
-<https://www.loom.com/share/f95e1058c248472485daa7d741e83a33>
+<https://www.loom.com/share/df9030ede7aa4fc29e9b670c35241e93>
 
 ---
 
