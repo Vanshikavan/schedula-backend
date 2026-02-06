@@ -7,13 +7,12 @@ import { AppService } from './app.service';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: 'postgres',
-      database: 'schedula',
-      autoLoadEntities: true,
-      synchronize: true,
+  url: process.env.DATABASE_URL,
+  autoLoadEntities: true,
+  synchronize: true,
+  ssl: {
+    rejectUnauthorized: false,
+  },
     }),
   ],
   controllers: [AppController],
