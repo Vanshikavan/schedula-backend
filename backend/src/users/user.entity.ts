@@ -25,4 +25,8 @@ export class User {
 
   @Column({ type: 'enum', enum: UserRole })
   role: UserRole;
+
+  @Column({ default: false })
+  onboardingCompleted: boolean;
+
 }
